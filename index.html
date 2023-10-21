@@ -13,6 +13,15 @@
         <h1>LogFlow AI</h1>
         <h2>Backed by <img src="./images/ycombinator_logo.png" alt="Y. Combinator" class="ycombinator-logo"> </h2>
         
+        <form id="upload-form">
+            <label for="log-upload">Upload Logs:</label>
+            <input type="file" id="log-upload" accept=".log">
+            <h3>Choose Solution:</h3>
+            <button type="button" onclick="handleUpload('technical')" class = "btn">Technical Team</button>
+            <button type="button" onclick="handleUpload('sales')" class = "btn">Sales Team</button>
+        </form>
+
+        <!--
         <label for="log-upload">Upload Logs:</label>
         <input type="file" id="log-upload" accept=".log">
 
@@ -22,6 +31,7 @@
             <a href="technical_team.html" class="btn">Technical Team</a>
             <a href="sales_team.html" class="btn">Sales Team</a>
         </div>
+        -->
         
         <footer>
             &copy; LogFlowAI
