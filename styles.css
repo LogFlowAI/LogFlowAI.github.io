@@ -7,6 +7,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url('./images/logflowai_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container {
