@@ -17,9 +17,12 @@
             <label for="log-upload">Upload Logs:</label>
             <input type="file" id="log-upload" accept=".log">
             <h3>Choose Solution:</h3>
-            <button type="button" onclick="handleUpload('technical')" class = "btn">Technical Team</button>
-            <button type="button" onclick="handleUpload('sales')" class = "btn">Sales Team</button>
+            <div class="button-container">
+                <button type="button" onclick="handleUpload('technical')" class="btn">Technical Team</button>
+                <button type="button" onclick="handleUpload('sales')" class="btn">Sales Team</button>
+            </div>
         </form>
+
 
         <!--
         <label for="log-upload">Upload Logs:</label>
